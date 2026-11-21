@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.code %}{{ page.code }} // {% endif %}{% if page.title %}{{ page.title }} — {% endif %}ISOH.RU</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="top-bar">
+    <div><span class="status-dot"></span>ISOH.RU // WORKING OBSERVATORY v0.4</div>
+    <div>HYBRID GOVERNANCE & SOCIAL ORGANIZATION</div>
+  </div>
+
+  {{ content }}
+</body>
+</html>
